@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="spotify.css" />
+    <link rel="icon" href="./images/spotifylogo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav-option" style="opacity: 1">
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Home</a>
+          </div>
+          <div class="nav-option">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="#">Search</a>
+          </div>
+        </div>
+        <div class="library"></div>
+        <div class="options">
+          <div class="lib-option nav-option">
+            <span class="material-symbols-outlined"> library_books </span>
+            <a href="#">Your Library</a>
+          </div>
+          <div class="icons">
+            <i class="fa-solid fa-plus"></i>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="lib-box">
+          <div class="box">
+            <p class="box-p1">Create your first playlist</p>
+            <p class="box-p2">It's easy, we'll help you</p>
+            <button class="badge">Create playlist</button>
+          </div>
+          <div class="box">
+            <p class="box-p1">Let's find some podcast to follow</p>
+            <p class="box-p2">We'll keep you updated on new episodes</p>
+            <button class="badge">Browse podcasts</button>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="sticky-nav">
+          <div class="sticky-nav-icons">
+            <span class="material-symbols-outlined"> arrow_back_ios </span>
+            <span class="material-symbols-outlined hide">
+              arrow_forward_ios
+            </span>
+          </div>
+          <div class="sticky-nav-options">
+            <button class="badge nav-item hide">Explore Premium</button>
+            <button class="badge nav-item dark-badge">
+              <i class="fa-regular fa-circle-down" style="margin-right: 5px"></i
+              >Install App
+            </button>
+            <i class="fa-regular fa-user nav-item"></i>
+          </div>
+        </div>
+
+        <h2>Recently Played</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="images/top-fifty-global.jpeg" class="card-img" alt="" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">Your daily updates of the most played...</p>
+          </div>
+        </div>
+
+        <h2>Featured Charts</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="images/viral-50.jpeg" class="card-img" alt="" />
+            <p class="card-title">Viral 50 - Global</p>
+            <p class="card-info">Your daily updates of the most virals...</p>
+          </div>
+          <div class="card">
+            <img src="images/top 50 usa.jpeg" class="card-img" alt="" />
+            <p class="card-title">Top 50 - USA</p>
+            <p class="card-info">Your daily updates of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="images/TOP 50 INDIA.jpeg" class="card-img" alt="" />
+            <p class="card-title">Top 50 - Indian</p>
+            <p class="card-info">
+              Your daily updates of the most viral Indians...
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="images/viral 50 brazil.png" class="card-img" alt="" />
+            <p class="card-title">Viral 50 - Brazil</p>
+            <p class="card-info">Your daily updates of the most virals...</p>
+          </div>
+
+          <div class="card">
+            <img src="images/viral 50 france.jpeg" class="card-img" alt="" />
+            <p class="card-title">Top 50 - France</p>
+            <p class="card-info">Your daily updates of the most virals...</p>
+          </div>
+
+          <div class="card">
+            <img src="images/viral 50 japan.jpeg" class="card-img" alt="" />
+            <p class="card-title">Top 50 - Japan</p>
+            <p class="card-info">Your daily updates of the most virals...</p>
+          </div>
+
+          <div class="card">
+            <img src="images/viral 50 maxico.jpeg" class="card-img" alt="" />
+            <p class="card-title">Top 50 - Maxico</p>
+            <p class="card-info">Your daily updates of the most virals...</p>
+          </div>
+
+          <div class="card">
+            <img src="images/viral hits.jpeg" class="card-img" alt="" />
+            <p class="card-title">Viral Hits</p>
+            <p class="card-info">
+              Your daily updates of the most viral Hits...
+            </p>
+          </div>
+        </div>
+
+        <h2>Top Indian Popular</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="images/bollywood5.jpeg" class="card-img" alt="" />
+            <p class="card-title">Bollywood Hits</p>
+            <p class="card-info">Your daily updates of the most played...</p>
+          </div>
+
+          <div class="card">
+            <img src="images/bollywood6.jpg" class="card-img" alt="" />
+            <p class="card-title">New Bollywood</p>
+            <p class="card-info">Your daily updates of the most played...</p>
+          </div>
+
+          <div class="card">
+            <img src="images/bollywood3.jpg" class="card-img" alt="" />
+            <p class="card-title">Best Bollywood</p>
+            <p class="card-info">Your daily updates of the most played...</p>
+          </div>
+
+          <div class="card">
+            <img src="images/bollywood2.jpeg" class="card-img" alt="" />
+            <p class="card-title">Bollywood Most Viral</p>
+            <p class="card-info">Your daily updates of the most played...</p>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="music-player">
+        <!-- <div class="album">
+          <div class="left-side">
+            <img
+              src="images/bollywood5.jpeg"
+              class="left-image"
+              style="width: 20%; height: 20%"
+            />
+            <div class="leftplusicon">
+              <div class="left-text">Filhall</div>
+              <div class="left-text2">Arijit Singh</div>
+            </div>
+          </div>
+
+          <span class="material-symbols-outlined"> add_circle </span>
+        </div> -->
+
+        <section class="album">
+          <div class="album-info">
+            <img src="images/bollywood6.jpg" alt="Album Cover" />
+            <div class="details">
+              <p style="font-size: 1rem; margin-top: 2rem">Song Name</p>
+              <p style="font-size: 0.7rem">Artist: Artist Name</p>
+              <div class="plus">
+    <i class="fa-solid fa-plus plus"></i>
+              </div>
+          
+            </div>
+          </div>
+        </section>
+
+        <div class="player">
+          <div class="player-controls">
+            <i class="fa-solid fa-shuffle player-control-icon"></i>
+            <i class="fa-solid fa-backward-step player-control-icon"></i>
+            <i
+              class="fa-solid fa-circle-play player-control-icon"
+              style="opacity: 1; font-size: 1.5rem"
+            ></i>
+            <i class="fa-solid fa-forward-step player-control-icon"></i>
+            <i class="fa-solid fa-repeat player-control-icon"></i>
+          </div>
+          <div class="playback-bar">
+            <span class="curr-time">00:00</span>
+            <input
+              type="range"
+              min="0"
+              max="100"
+              class="progress-bar"
+              step="1"
+            />
+            <span class="tot-time">3:33</span>
+          </div>
+        </div>
+
+        <div class="controls">
+          <i class="fa-regular fa-file-audio playing-view"></i>
+          <i class="fa-solid fa-music playing-view"></i>
+          <i class="fa-solid fa-grip-lines-vertical playing-view"></i>
+          <i class="fa-solid fa-tablet-button playing-view"></i>
+          <i class="fa-solid fa-volume-off playing-view"></i>
+
+          <input type="range" min="0" max="100" class="sound-bar" step="1" />
+
+          <i class="fa-solid fa-tv playing-view"></i>
+
+          <i class="fa-solid fa-up-right-and-down-left-from-center playing-view"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
